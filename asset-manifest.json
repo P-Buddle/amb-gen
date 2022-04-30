@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/amb-gen/static/css/main.56cb6019.css",
+    "main.js": "/amb-gen/static/js/main.a760c19b.js",
+    "static/js/845.2da01cd6.chunk.js": "/amb-gen/static/js/845.2da01cd6.chunk.js",
+    "static/js/787.edc4c662.chunk.js": "/amb-gen/static/js/787.edc4c662.chunk.js",
+    "static/media/note5.mp3": "/amb-gen/static/media/note5.11a8d636ef79d9a2f4c5.mp3",
+    "static/media/note6.mp3": "/amb-gen/static/media/note6.d37d67e720b1ad54abec.mp3",
+    "static/media/note7.mp3": "/amb-gen/static/media/note7.e4beca072dd961737693.mp3",
+    "static/media/note2.mp3": "/amb-gen/static/media/note2.6b7d1fcc442bb7b8b86b.mp3",
+    "static/media/note3.mp3": "/amb-gen/static/media/note3.abfd5cd4c1618965c6f7.mp3",
+    "static/media/note4.mp3": "/amb-gen/static/media/note4.09d1281d91d301223567.mp3",
+    "static/media/note1.mp3": "/amb-gen/static/media/note1.0207a05fa8f68e03ebc9.mp3",
+    "index.html": "/amb-gen/index.html",
+    "main.56cb6019.css.map": "/amb-gen/static/css/main.56cb6019.css.map",
+    "main.a760c19b.js.map": "/amb-gen/static/js/main.a760c19b.js.map",
+    "845.2da01cd6.chunk.js.map": "/amb-gen/static/js/845.2da01cd6.chunk.js.map",
+    "787.edc4c662.chunk.js.map": "/amb-gen/static/js/787.edc4c662.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.56cb6019.css",
+    "static/js/main.a760c19b.js"
+  ]
+}
