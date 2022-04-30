@@ -1,0 +1,31 @@
+nav {
+    display: block;
+    position: absolute;
+    text-align: center;
+    left: 46%;
+    top: 0;
+}
+
+nav a {
+    padding: 1rem;
+    background: transparent;
+    border-radius: 50%;
+    display: flex;
+    color: var(--color-primary);
+    font-size: 5rem;
+
+    
+}
+
+nav a :hover {
+    opacity: 0.5;
+    color: var(--color-white);   
+
+}
+
+@media screen and (max-width: 800px) {
+
+    nav {
+        display: none;
+    }
+}

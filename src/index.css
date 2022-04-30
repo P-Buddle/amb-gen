@@ -1,13 +1,101 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    /*box-sizing: border-box;*/
+    list-style: none;
+    text-decoration: none;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+    --color-bg: #89216b;
+    --color-bg-var: #89216ba4;
+    --color-primary: #da4453;
+    --color-primary-var: #da6a44;
+    --color-light: #cf9ca1;
+    --color-white: rgb(252, 224, 233);
+
+    --circ1: #9b3e81;
+    --circ2: #d35562;
+    --circ3: red;
+
+    --container-width-lg: 75%;
+    --container-width-md: 86%;
+    --container-width-sm: 90%;
+
+    --transition: all 800ms ease;
+
+    --shape: 35%;
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    color: var(--color-white);
+    line-height: 1.7;
+    background: #da4453;  
+    background: -webkit-linear-gradient(to right, #da4453, #89216b);
+    background: linear-gradient(to right, #da4453, #89216b); 
+}
+
+
+
+
+
+.container {
+    width: var(--container-width-lg);
+    margin: 0 auto;
+    align-content: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-weight: 500;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+section {
+    margin-top: 20rem;
+    align-content: center;
+
+}
+
+
+.btn {
+    width: max-content;
+    display: inline-block;
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    padding: 0.75rem 1.2rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    border: 1px solid var(--color-light);
+    transition: var(--transition);
+    font-size: medium;
+    opacity: 0.7;
+}
+
+.btn:hover {
+    background-color: var(--color-primary-var);
+    border-color: var(--color-bg-var);
+}
+

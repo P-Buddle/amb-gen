@@ -1,0 +1,111 @@
+.container__shapes {
+    text-align: center;
+    display: grid;
+    padding: 5rem;
+    grid-gap: 5rem;
+    justify-content: center;
+    position: relative;
+    margin-top: -7rem;
+}
+
+.rows__3 {
+    grid-template-columns: auto auto auto;
+}
+
+.rows__4 {
+    grid-template-columns: auto auto auto auto;
+}
+
+.circle {
+    text-align: center;
+    color: var(--color-white);
+    border-radius: var(--shape);
+    height: 10rem;
+    width: 10rem;
+    /*border: solid rgb(186, 130, 139) 0.5px; */
+}
+
+.circle1 {
+    background: radial-gradient(pink, var(--circ1));
+}
+
+.circle2 {
+    background: radial-gradient(white, var(--circ2));
+}
+
+.circle3 {
+    background: radial-gradient(white, var(--circ3));
+}
+
+@keyframes circle {
+    0% {background: #da4453 }
+    100% {background:#8f2f59};
+  }
+
+.child {
+    background-color: #da4453; /*back up*/
+    animation-name: circle;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    text-align: center;
+    color: var(--color-white);
+    border-radius: var(--shape);
+    height: 10rem;
+    width: 10rem;
+    opacity: 0.8;
+    -webkit-transition: opacity 5000ms linear;
+    -ms-transition: opacity 5000ms linear;
+    transition: opacity 5000ms linear;
+}
+
+.child:hover {
+    opacity: 0;
+    -webkit-transition: opacity 2000ms linear;
+    -ms-transition: opacity 2000ms linear;
+    transition: opacity 2000ms linear;
+    filter: blur(5px);
+}
+
+
+/*RESPONSIVE DESIGN FEATURES*/
+@media screen and (max-width: 950px) {
+
+    .container__shapes {
+        text-align: center;
+        display: grid;
+        padding: 5rem;
+        grid-gap: 4rem;
+        margin-top: -6rem;
+    }
+
+    .circle {
+        height: 7rem;
+        width: 7rem;
+    }
+
+    .child {
+        height: 7rem;
+        width: 7rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+
+
+    .container__shapes {
+        padding: 4rem;
+        grid-gap: 0.8rem;
+        margin-top: -6rem;
+    }
+    .circle {
+        height: 7rem;
+        width: 7rem;
+    }
+
+    .child {
+        height: 7rem;
+        width: 7rem;
+    }
+}
+

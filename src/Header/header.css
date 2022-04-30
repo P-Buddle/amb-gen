@@ -1,0 +1,61 @@
+
+
+.header__container {
+    text-align: justify;
+    color: var(--color-white);
+    opacity: 0.5;
+    width: 100%; 
+    padding-bottom: 3rem;
+}
+
+h1 {
+    letter-spacing: 10rem;
+    margin-left: 1rem;
+}
+
+h5 {
+    margin-top: 0.7rem;
+    letter-spacing: 0.2rem;
+    text-align: right;
+    margin-right: 2rem;
+}
+
+
+/*RESPONSIVE DESIGN FEATURES*/
+@media screen and (max-width: 1000px) {
+    h1 {
+        letter-spacing: 5rem;
+    }
+
+
+
+}
+
+@media screen and (max-width: 800px) {
+    h1 {
+        letter-spacing: 4rem;
+    }
+
+    section {
+        margin-top: 1rem;
+    }
+
+    .header__container {
+        margin-bottom: 7rem;
+    }
+
+}
+
+@media screen and (max-width: 530px) {
+    h1 {
+        letter-spacing: 3rem;
+    }
+
+    section {
+        margin-top: 1rem;
+    }
+
+    .header__container {
+        margin-bottom: 10rem;
+    }
+}
